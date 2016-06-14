@@ -1,0 +1,8 @@
+*~
+*.elf
+*.bin
+build
+*.mk
+!gpdsc.mk
+st-flash.log
+serialcat

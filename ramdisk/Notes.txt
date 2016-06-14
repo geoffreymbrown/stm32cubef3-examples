@@ -1,0 +1,12 @@
+// use mtools to create a disk image
+
+mformat -C -h 1 -n 32 -t 1 -v "RamDisk" -i test.img ::
+mcopy -i test.img Readme.txt
+mcopy -i test.img Readme.txt  ::
+
+// use mkdisk to make a c file
+
+gcc -o mkdisk mkdisk.c
+./mkdisk test.img > Src/DiskImage.c
+
+
