@@ -9,16 +9,16 @@ To use, modify the top level make file fragment gpdsc.mk TOOLCHAIN variable
 point to an appropriate gcc arm toolchain
 (https://launchpad.net/gcc-arm-embedded)
 
-Each of the projects can be built by entering the appropriate subdirector and
+Each of the projects can be built by entering the appropriate subdirectory and
 invoking make.
 
 There are a few tools generated (e.g. tee in the vcom project) that may be of
 help in testing.  The projects are
 
- 1 PushButton -- lights an LED when the blue user button is pressed
- 2 vcom       -- creates a USB virtual com port loopback
- 3 ramfs      -- creates a USB mounted ram file system
- 4 fatfs      -- mounts an SD card on SPI2
- 5 sd         -- mounts an SD card on SPI2 over USB
+ 1. PushButton -- lights an LED when the blue user button is pressed
+ 2. vcom       -- creates a USB virtual com port loopback
+ 3. ramfs      -- creates a USB mounted ram file system
+ 4. fatfs      -- mounts an SD card on SPI2
+ 5. sd         -- mounts an SD card on SPI2 over USB
 
 
